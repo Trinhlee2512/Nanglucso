@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Supermarket Optimizer - M/M/1 Queue Model</title>
+    <title>Tính xác suất của Mô Hình hàng đợi M/M/1 tại siêu thị</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -20,8 +20,8 @@
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
             <div>
                 <h1 class="text-3xl font-bold flex items-center gap-3">
-                    <i class="fas fa-microchip text-blue-400"></i>
-                    AI Supermarket Simulator (M/M/1)
+                    <i class="fas fa-calculator text-blue-400"></i>
+                    Tính xác suất của Mô Hình hàng đợi M/M/1 tại siêu thị
                 </h1>
                 <p class="text-slate-300 mt-2">Giải pháp tối ưu hóa hàng đợi dựa trên lý thuyết xác suất và toán học chuyên sâu</p>
             </div>
@@ -154,7 +154,7 @@
     </main>
 
     <footer class="mt-12 py-8 border-t border-slate-200 text-center text-slate-500 text-sm">
-        <p>© 2024 AI Supermarket Math Solutions. Advanced Queueing Theory Module.</p>
+        <p>© 2024 Phần mềm Tính xác suất Mô Hình hàng đợi M/M/1 tại siêu thị - Chuyên gia Toán học Giải thuật.</p>
     </footer>
 
     <script>
@@ -255,7 +255,7 @@
                 } else {
                     rhoBar.classList.remove('bg-red-500', 'bg-amber-500');
                     rhoBar.classList.add('bg-blue-500');
-                    rhoStatus.innerText = "H hệ thống đang hoạt động ổn định";
+                    rhoStatus.innerText = "Hệ thống đang hoạt động ổn định";
                     rhoStatus.className = "text-center text-xs mt-3 font-bold text-emerald-600";
                 }
             }
